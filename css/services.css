@@ -1,0 +1,61 @@
+#services1
+{
+/*    padding:20px;*/
+    margin-top: 20px;
+}
+
+
+.panel 
+{
+    border: 0px;
+    background-color:#918888;
+}
+
+.panel-heading
+{
+    background-color: #342222;
+    padding: 18px 5px;
+}
+
+
+.panel-heading h3
+{
+            font-size: 20px;   
+            font-family: 'Droid Serif', serif;           
+            color: #dadada;
+            text-transform: uppercase;
+}
+
+
+.panel-body
+      {
+                font-size: 15px;   
+                font-family: Montserrat, 'Sans-serif';
+                background-color:#918888;
+                color:#e5e5e5;
+                text-align: justify;
+     }
+
+
+@media (min-width: 992px){
+
+    #row1 {
+                height: 440px;
+    }
+    
+    #row1, #row2 {
+        
+                margin: 20px auto;
+    }
+    
+    #row2 {
+        
+                height: 520px;
+    }
+    
+    .col-md-4, .panel {
+        
+                    height: 100%;
+    }
+}
+    

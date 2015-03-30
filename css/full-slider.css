@@ -1,0 +1,78 @@
+/*#####################
+Additional Styles (required)
+#####################*/
+#myCarousel {
+	padding:5px;
+	background-color: #aeaeae;
+    margin-top: 20px;
+    
+}
+
+
+
+/*
+#myCarousel  .carousel-caption {
+	top:auto;
+	width:auto;
+	right:auto;
+	bottom:0px;
+	left:0;
+	padding:20px;
+	text-align:center;
+  	height:auto;
+	width:100%;
+	color:#432A18;
+	text-shadow:none;
+
+}
+*/
+
+
+/*
+#myCarousel  .carousel-caption h3{
+	    color:#b2b1af;
+	     margin:0px;
+        font-size:15px;
+    padding-bottom: 0px;
+}
+*/
+
+
+
+.carousel-control {
+	color:#fff;
+	top:44%;
+	background:#aeaeae;
+	bottom:auto;
+	padding-top:8px;
+	width:36px;
+	border-radius:50%;
+	height:36px;
+	opacity:1;
+}
+.carousel-control.left, .carousel-control.right {
+	background-image:none !important;
+}
+.carousel-control.right,
+.carousel-control .glyphicon glyphicon-menu-right {
+	left:auto;
+	right:-16px;
+    color:#404040;
+
+}
+.carousel-control.left,
+.carousel-control .glyphicon glyphicon-menu-left{
+	right:auto;
+	left:-16px;
+    color:#404040;
+
+}
+
+/*
+@media (min-width: 992px){
+  #myCarousel  .carousel-caption h3{
+        font-size:25px;
+}
+    
+}
+*/
